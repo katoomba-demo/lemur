@@ -1,4 +1,4 @@
-FROM alpine:3.8
+FROM alpine:3-alpine3.10
 
 ARG VERSION
 ENV VERSION master

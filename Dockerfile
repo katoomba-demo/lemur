@@ -1,4 +1,4 @@
-FROM python:3.7-alpine3.9
+FROM python:3-alpine3.10
 RUN apt-get update
 RUN apt-get install -y make software-properties-common curl
 RUN curl -sL https://deb.nodesource.com/setup_7.x | bash -
